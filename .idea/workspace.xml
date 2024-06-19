@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83000e30-3bd2-4a6a-a1c5-c258fd9176b8" name="Changes" comment="" />
+    <list default="true" id="83000e30-3bd2-4a6a-a1c5-c258fd9176b8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Principal.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "QA",
+    "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/gustavoteotonio-ieg/OneDrive - Instituto Germinare/Germinare - Materias/2°Ano/Tech/Desenvolvimento 2/Códigos/Aula 2.1 - ProjVendasJPA",
     "node.js.detected.package.eslint": "true",
@@ -80,7 +83,7 @@
       <workItem from="1707213945808" duration="2907000" />
       <workItem from="1707473968515" duration="1077000" />
       <workItem from="1707475544377" duration="784000" />
-      <workItem from="1718809873667" duration="127000" />
+      <workItem from="1718809873667" duration="1079000" />
     </task>
     <servers />
   </component>
