@@ -13,7 +13,8 @@ public class Principal {
         EntityManager em = emf.createEntityManager();
 
         //--------------------------------------------------------Select---------------------------------------------------------//
-        //Para qualquer transação no banco, devemos começar com o begin,
+//sla        
+//Para qualquer transação no banco, devemos começar com o begin,
 //        em.getTransaction().begin();
 //        Departamento dept = em.find(Departamento.class, 30);
 //        System.out.println(dept);
