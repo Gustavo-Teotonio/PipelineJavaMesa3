@@ -14,7 +14,7 @@ public class Principal {
 
         //--------------------------------------------------------Select---------------------------------------------------------//
 
-        //slal
+        //boca
 //Para qualquer transação no banco, devemos começar com o begin,
 //        em.getTransaction().begin();
 //        Departamento dept = em.find(Departamento.class, 30);
