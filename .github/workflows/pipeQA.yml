@@ -19,12 +19,12 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6.4
       name: Docker Build & Push Action
       with:
-          image: gustavoteotonio/javapipeline_qz
+          image: gustavoteotonio/javapipeline_qa
           tags: QA_v.${{ github.run_number }}
           registry: docker.io
-          #dockerfile: Dockerfile
-          username: ${{secrets.DOCKERHUB_USER_NASCIMENTO}}
-          password: ${{secrets.DOCKERHUB_SENHA_NASCIMENTO}}
+          dockerfile: Dockerfile
+          username: ${{secrets.DOCKERHUB_USER}}
+          password: ${{secrets.DOCKERHUB_PASSWORD}}
  
     - name: mensagem de sucesso
       run: echo Pipeline de QA concluída
