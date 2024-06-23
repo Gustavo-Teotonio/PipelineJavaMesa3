@@ -1,7 +1,7 @@
-name: Pipeline de QA
+name: Pipeline de Prod
 on:
   pull_request:
-    branches: [ "QA" ]
+    branches: [ "prod" ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,8 +19,8 @@ jobs:
     - uses: mr-smithers-excellent/docker-build-push@v6.4
       name: Docker Build & Push Action
       with:
-          image: gustavoteotonio/java_qa
-          tags: qz_v.${{ github.run_number }}
+          image: gustavoteotonio/java_prod
+          tags: prod_v.${{ github.run_number }}
 
           registry: docker.io
           dockerfile: Dockerfile
@@ -28,4 +28,4 @@ jobs:
           password: ${{secrets.DOCKERHUB_PASSWORD}}
  
     - name: mensagem de sucesso
-      run: echo Pipeline de QA concluida	
+      run: echo Pipeline de Prod concluida
