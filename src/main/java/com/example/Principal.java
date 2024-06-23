@@ -13,7 +13,9 @@ public class Principal {
         EntityManager em = emf.createEntityManager();
 
         //--------------------------------------------------------Select---------------------------------------------------------//
-        //Para qualquer transação no banco, devemos começar com o begin,
+
+        //boca
+//Para qualquer transação no banco, devemos começar com o begin,
 //        em.getTransaction().begin();
 //        Departamento dept = em.find(Departamento.class, 30);
 //        System.out.println(dept);
@@ -45,6 +47,9 @@ public class Principal {
          dept1.setdName("Administrativo");
          System.out.println(em.find(Departamento.class, 85));
          em.getTransaction().commit();
+         //Novo comentario
+         //Novo comentário 2
+        //Novo comentário 3
 
         //--------------------------------------------------------Delete---------------------------------------------------------//
 //        em.getTransaction().begin();

@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 @Table (name = "dept")
 public class Departamento {
     @Id
-    //@Column (name = "deptno") - Quando o nome da variavel não está igual ao nome da coluna do banco, devemos declarar a anotação olumn
+    //@Column (name = "deptno") - Quando o nome da variavel não está igual ao nome da coluna do banco, devemos declarar a anotação column
     private double deptno;
     private String dName;
     private String loc;
