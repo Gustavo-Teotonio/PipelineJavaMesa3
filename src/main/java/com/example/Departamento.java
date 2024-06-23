@@ -37,6 +37,7 @@ public class Departamento {
         this.loc = loc;
     }
 
+    //ToString
     public String toString(){
         return "Id Dept: " + this.deptno + "\nNome Depto: " + this.dName +
                 "\nLocalização: " + this.loc;
