@@ -20,7 +20,7 @@ jobs:
       name: Docker Build & Push Action
       with:
           image: gustavoteotonio/java_qa
-          tags: prod_v.${{ github.run_number }}
+          tags: qa_v.${{ github.run_number }}
           registry: docker.io
           dockerfile: Dockerfile
           username: ${{secrets.DOCKERHUB_USER}}
